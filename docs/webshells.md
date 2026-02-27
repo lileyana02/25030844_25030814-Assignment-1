@@ -26,13 +26,13 @@ The script performs the following functions:
 The DVWA login page was accessed via:
 ```bash http://<ip>/dvwa/login.php```
 
-#### Step 3: Set Security Level to Low
+### Step 3: Set Security Level to Low
 
 <img width="990" height="669" alt="security" src="https://github.com/user-attachments/assets/dee78a2d-98f7-4569-9914-c9b22dfbd49c" />
 
 The DVWA security level was changed to "Low" to allow exploitation of file upload vulnerability. This configuration reduces input validation and simulates a poorly secured web application.
 
-#### Step 4: Upload web shell
+### Step 4: Upload web shell
 In file upload module, shell.php file was selected and uploaded.
 
 <img width="906" height="683" alt="upload" src="https://github.com/user-attachments/assets/ceb66a41-7865-472a-9ad9-97eecf658f2d" />
@@ -42,7 +42,7 @@ In file upload module, shell.php file was selected and uploaded.
 This indicates the server accepted and stored executable PHP code without proper validation.
 
 
-#### Step 5 - Execute Commands via Browser
+### Step 5 - Execute Commands via Browser
 After uploading, the shell was accessed through:
 ```bash
 http://<<ip>/dvwa/hackable/uploads/shell.php
