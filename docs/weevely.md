@@ -10,7 +10,8 @@ The main purpose of Weevely is to maintain access after successfully exploiting 
 
 ## Steps
 ### Step A
-<img width="1068" height="151" alt="weevely create file" src="https://github.com/user-attachments/assets/2573cd02-4827-43a9-bdc3-a80c91d8c335" />
+<img width="1068" height="151" alt="weevely create file" src="https://github.com/user-attachments/assets/3b880b28-8b1a-41c0-99c0-99a88b812216" />
+
 
 ``` bash 
 weevely generate <password> <filename.php>
@@ -20,25 +21,29 @@ weevely generate <password> <filename.php>
 ### Step B
 DVWA (Damn Vulnerable Web Application) is an intentionally insecure PHP/MySQL web application designed for security professionals, developers, and students to practice common web attacks legally. It serves as a controlled environment to learn and test vulnerability scanning, exploitation techniques, and defensive security measures.
   
-<img width="1068" height="828" alt="upload doc" src="https://github.com/user-attachments/assets/5bc3c5c7-ddec-4e08-a39d-d4439b92e6fe" />
+ <img width="1068" height="828" alt="upload doc" src="https://github.com/user-attachments/assets/5f5dfb3e-3ef0-4072-9f35-7aa7d450edc7" />
+
 
 - In this steps, we used DVWA "File upload" page to upload the PHP agent file that we have created just now. We need to upload testbackdoor.php that we have created previously.
 
-   <img width="1068" height="810" alt="success upload" src="https://github.com/user-attachments/assets/8b4333c9-d005-4c4e-9b5e-70b98b1f7acf" />
+   <img width="1068" height="810" alt="success upload" src="https://github.com/user-attachments/assets/a5557dcd-5190-4553-a149-494162956fa0" />
+
 
 - Just by click submit, DVWA confirmed the upload was successful.
 
 ### Step C - start session (Connect to the uploaded PHP agent)
 We need to initiate a seession from Kali terminal to the uploaded PHP agent that we have uploaded to DVWA.
 
-<img width="1068" height="215" alt="access to file with password" src="https://github.com/user-attachments/assets/55581d90-1b99-4408-b351-648015593e5a" />
+<img width="1068" height="215" alt="access to file with password" src="https://github.com/user-attachments/assets/e86906de-4ae2-4ed7-b358-845387fffd87" />
+
 
 This demonstrates 'maintaining access'. After the upload, the tester can return later and re-enter via the same endpoint.
 
 ### Step D - Feature Demo 1: System/Environment information
 Ran the 'system information' capability to identify web server user, working directory, OS version or PHP version.
 
-<img width="1068" height="360" alt="system_info_wee" src="https://github.com/user-attachments/assets/64147449-2192-4e6a-9c0a-fb376d719ebb" />
+<img width="1068" height="360" alt="system_info_wee" src="https://github.com/user-attachments/assets/6a3491e3-8452-493a-90aa-368aa258481c" />
+
 
 ```bash
 system_info
@@ -49,7 +54,8 @@ Attackers use this to understand privilege level and plan escalation. Defenders 
 
 In this demo,  we will list the files in the upload directory to confirm what is accessible remotely. 
 
-<img width="1068" height="169" alt="file directory" src="https://github.com/user-attachments/assets/62f299b6-152d-4d5e-84eb-2b39a0c089fd" />
+<img width="1068" height="169" alt="file directory" src="https://github.com/user-attachments/assets/00915ac8-b076-4527-857c-49527f242a9d" />
+
 
 ```bash
 file_ls
@@ -60,7 +66,8 @@ This demonstrate post-access discovery in checking what files exist and where th
 
 This is used to demonstrate the ability to retrieve files from the remote server after access has been established.
 
-<img width="1146" height="230" alt="download file remotely" src="https://github.com/user-attachments/assets/906401df-ca5e-4ea3-addc-c0c65fbe983c" />
+<img width="1146" height="230" alt="download file remotely" src="https://github.com/user-attachments/assets/b4859522-f19f-412a-9168-0f6765dfe5f5" />
+
 
 ```bash
 # Example structure (lab environment)
