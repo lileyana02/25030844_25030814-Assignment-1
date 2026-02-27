@@ -85,3 +85,8 @@ dvwa_email.png
 ```
   This demonstrates the ability to enumerate server files.
 
+
+---
+## References
+Dodd, S. (2017). DVWA file upload vulnerability. https://spencerdodd.github.io/2017/03/05/dvwa_file_upload/
+
