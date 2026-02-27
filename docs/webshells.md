@@ -12,8 +12,7 @@ Damn Vulnerable Web Application (DVWA) was used to simulate an insecure file upl
 ### Step 1: Creating the PHP Script in Kali
 The PHP file was created locally in Kali Linux before being uploaded to the vulnerable web application.
 
-<img width="909" height="136" alt="type in" src="https://github.com/user-attachments/assets/16b1ac6d-5601-4f6a-878f-6d4ec4eb2480" />
-
+<img width="909" height="136" alt="type in" src="https://github.com/user-attachments/assets/bc6a4c7c-906f-43bf-bd29-908157d32798" />
 
 The script allows system command execution via a URL parameter.
 This type of script enables dynamic execution of operating system commands passed through the browser.
