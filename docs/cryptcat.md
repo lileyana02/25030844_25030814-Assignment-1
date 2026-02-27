@@ -19,8 +19,7 @@ Parameters:
 - -p 4444 means specifies port number
 - -k testkey means encryption key
   
-<img width="728" height="87" alt="1" src="https://github.com/user-attachments/assets/6cfacbd0-dd9b-4e1c-846b-701da38c2950" />
-
+ <img width="728" height="87" alt="1" src="https://github.com/user-attachments/assets/089ab680-c3e4-4d08-ba14-f74c696217ad" />
 
 This command creates an encrypted communication endpoint waiting for a remote system to connect.
 
@@ -28,7 +27,8 @@ This command creates an encrypted communication endpoint waiting for a remote sy
 ```bash
 cryptcat <IP> 4444 -k testkey
 ```
-<img width="728" height="97" alt="2" src="https://github.com/user-attachments/assets/3ad02524-21fb-4f52-81c4-a9224bb93156" />
+
+<img width="728" height="97" alt="2" src="https://github.com/user-attachments/assets/5177f60e-0c0d-4606-96b3-5580565f4dd9" />
 
 Parameters:
 - <ip> means Listener IP
@@ -51,7 +51,7 @@ This demonstration shows that Cryptcat is capable of establishing bidirectional 
 ```bash
 echo "this is test file from terminal 2" > secret.txt
 ```
-<img width="719" height="182" alt="Screenshot 2026-02-25 211310" src="https://github.com/user-attachments/assets/4efc8007-24ad-438c-a6e2-70bc431051ff" />
+<img width="719" height="182" alt="Screenshot 2026-02-25 211310" src="https://github.com/user-attachments/assets/af009849-ae01-477c-9e16-cc786097ca81" />
 
 Creates a sample file to simulate data exfiltration.
 
@@ -59,7 +59,7 @@ Creates a sample file to simulate data exfiltration.
 ```bash
 cryptcat -l -p 5555 -k filekey > received.txt
 ```
-<img width="795" height="228" alt="Screenshot 2026-02-25 211407" src="https://github.com/user-attachments/assets/e2ef4eb6-4b41-4ea5-a628-c221942132f1" />
+<img width="795" height="228" alt="Screenshot 2026-02-25 211407" src="https://github.com/user-attachments/assets/20adb3bb-c365-4a80-9f5f-7d556e4a7462" />
 
 This command configures to listen for incoming connections on port 5555. It applies a predefined encryption key to ensure that all transmitted data is encrypted during the communication session. Additionally, the output redirection operator saves the incoming data stream into a local file named received.txt, thereby allowing the system to store the transferred content for later verification or analysis.
 
@@ -80,13 +80,13 @@ this demonstrate secure file transfer channel.
 ```bash
 cat received.txt
 ```
-<img width="711" height="81" alt="Screenshot 2026-02-25 211527-9" src="https://github.com/user-attachments/assets/37fbe7ca-0cda-4abf-9072-db0633d4c12b" />
+<img width="711" height="81" alt="Screenshot 2026-02-25 211527-9" src="https://github.com/user-attachments/assets/c796efce-512d-489e-be4f-1ded11b8d580" />
 
 the commands used to check the file transfer. This confirms successful encrypted file transfer.
 
 ### Feature 3 - Remote Shell Capability
 
-<img width="745" height="704" alt="3" src="https://github.com/user-attachments/assets/168873b4-5ca2-4f53-91ae-4abec5009b3d" />
+<img width="745" height="704" alt="3" src="https://github.com/user-attachments/assets/d9784d0e-d203-456c-ad16-bad49392c07a" />
 
 
 Cryptcat supports execution of a program upon connection using the `-e` option. 
