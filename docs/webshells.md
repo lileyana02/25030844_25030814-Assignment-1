@@ -12,7 +12,8 @@ Damn Vulnerable Web Application (DVWA) was used to simulate an insecure file upl
 ### Step 1: Creating the PHP Script in Kali
 The PHP file was created locally in Kali Linux before being uploaded to the vulnerable web application.
 
-<img width="909" height="136" alt="type in" src="https://github.com/user-attachments/assets/f50adf00-0b97-4c8d-a115-f01a5617314d" />
+<img width="909" height="136" alt="type in" src="https://github.com/user-attachments/assets/16b1ac6d-5601-4f6a-878f-6d4ec4eb2480" />
+
 
 The script allows system command execution via a URL parameter.
 This type of script enables dynamic execution of operating system commands passed through the browser.
@@ -28,16 +29,18 @@ The DVWA login page was accessed via:
 
 ### Step 3: Set Security Level to Low
 
-<img width="990" height="669" alt="security" src="https://github.com/user-attachments/assets/dee78a2d-98f7-4569-9914-c9b22dfbd49c" />
+<img width="990" height="669" alt="security" src="https://github.com/user-attachments/assets/44afb085-2ee9-458d-8b33-5aa46ba2961b" />
+
 
 The DVWA security level was changed to "Low" to allow exploitation of file upload vulnerability. This configuration reduces input validation and simulates a poorly secured web application.
 
 ### Step 4: Upload web shell
 In file upload module, shell.php file was selected and uploaded.
 
-<img width="906" height="683" alt="upload" src="https://github.com/user-attachments/assets/ceb66a41-7865-472a-9ad9-97eecf658f2d" />
+<img width="906" height="683" alt="upload" src="https://github.com/user-attachments/assets/2b7da933-44d3-46c2-8b93-3eab08575573" />
 
-<img width="931" height="734" alt="successupload" src="https://github.com/user-attachments/assets/fad28893-f68b-49a5-ba74-08568e194ae7" />
+<img width="931" height="734" alt="successupload" src="https://github.com/user-attachments/assets/8a27dc82-7f38-4c0c-ac9f-adeec3b5f380" />
+
 
 This indicates the server accepted and stored executable PHP code without proper validation.
 
@@ -50,7 +53,8 @@ http://<<ip>/dvwa/hackable/uploads/shell.php
 Commands were executed via the cmd parameter.
   - feature 1: identify user
     
-  <img width="990" height="141" alt="successsnap" src="https://github.com/user-attachments/assets/05cbefa9-577b-4474-ae35-fe2f15a7f8ca" />
+<img width="990" height="141" alt="successsnap" src="https://github.com/user-attachments/assets/baaae83d-44cb-45a7-8d44-7d6c3a93b46e" />
+
 
   Output:
   ```bash
@@ -60,7 +64,8 @@ Commands were executed via the cmd parameter.
 
   - Feature 2: Display Current Directory
     
-    <img width="990" height="149" alt="pwd" src="https://github.com/user-attachments/assets/c81cf3f0-749c-4e92-a1c1-729635cd0704" />
+    <img width="990" height="149" alt="pwd" src="https://github.com/user-attachments/assets/1b9dfd1a-27bf-4b8f-a82d-f2ec2cf7eb08" />
+
     Output:
   ```bash
   /var/www/dvwa/hackable/uploads
@@ -68,9 +73,11 @@ Commands were executed via the cmd parameter.
   This confirms filesystem access via the web shell.
 
   - Feature 3 List files in directory
-  <img width="990" height="148" alt="ls -la" src="https://github.com/user-attachments/assets/ff4ebca4-4d8f-48c8-8adb-683f387faa6d" />
+    
+  <img width="990" height="148" alt="ls -la" src="https://github.com/user-attachments/assets/c3b55602-1173-4e00-aec2-03c54abd3460" />
 
-<img width="669" height="157" alt="cmd=ls" src="https://github.com/user-attachments/assets/9d870d7f-a25b-4151-92aa-cee27adc63b3" />
+ <img width="669" height="157" alt="cmd=ls" src="https://github.com/user-attachments/assets/701bb49e-d958-4090-95bc-f1f61418b0fa" />
+ 
 
   Output shows:
 ```bash
