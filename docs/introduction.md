@@ -1,4 +1,4 @@
-# 1. Introduction
+# Introduction
 
 Penetration testing follows a structured process to simulate real-world cyber attacks in a safe and controlled environment. Two important stages in this process are reconnaissance and maintaining access. These stages have different goals but both are important in understanding system weaknesses.
 
