@@ -82,4 +82,9 @@ This feature allows the operator to specify:
 This demonstrates how maintaining access tools can be used not only for command execution but also for data exfiltration within a controlled test environment.
 
 
+---
+## References
+Scribd. (n.d.). Tutorial: File upload vulnerabilities. https://www.scribd.com/document/984077152/Tutorial-File-Upload-Vulnerabilities
+
+TutorialsPoint. (n.d.). Kali Linux – Maintaining access. https://www.tutorialspoint.com/kali_linux/kali_linux_maintaining_access.htm
 
