@@ -95,3 +95,8 @@ This enables binding a system shell to a listening port.
 Purpose:
 This allows a remote user to execute system commands over an encrypted channel. If unauthorized, this can create a backdoor listener on a compromised machine. From a defensive perspective, monitoring unexpected listening ports is critical.
 
+---
+## References
+pAKCl9lImpU. (n.d.). Cryptcat tutorial [Video]. YouTube. https://youtu.be/pAKCl9lImpU
+
+OpenAI. (2024). ChatGPT (February 27 version) [Large language model]. https://chat.openai.com/
