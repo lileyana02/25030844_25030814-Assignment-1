@@ -6,6 +6,8 @@ nmap -sn 192.168.1.0/24    //Detecting the online status of devices correspondin
 ```
 <img width="568" height="364" alt="image" src="https://github.com/user-attachments/assets/be9a152b-60c7-4cc0-8763-22ebbe4d8f02" />
 
+Host discovery is the initial reconnaissance step used to determine whether a target system is online and reachable. The -sn option instructs Nmap to perform a ping scan without conducting a full port scan. This method reduces scan time and network noise while identifying active hosts.
+
 ### Common port scanning
 ```
 nmap -sS -p 1-1000 <IP>  //Detect the switch status of the specified port number
@@ -17,6 +19,8 @@ nmap -sS -p 1-1000 <IP>  //Detect the switch status of the specified port number
 nmap -sV -O <IP>    //Instructions for deep recognition of target host information
 ```
 <img width="1075" height="371" alt="image" src="https://github.com/user-attachments/assets/be96decc-17de-48ed-afab-bc586d67ee8a" />
+
+The -sV option enables service version detection. This feature identifies and the exact software and version running on those ports. This functionality is crucial because identifying service versions allows security professionals to determine whether the software is outdated or vulnerable to known exploits.
 
 > Advantages: Automatic recognition, OS fingerprinting, NSE, intuitive results, suitable for asset mapping. Ideal for routine port scanning, service enumeration, initial vulnerability screening, and internal network topology
 
