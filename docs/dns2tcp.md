@@ -56,4 +56,8 @@ Because DNS traffic:
 
 It may be abused as a covert communication channel.
 
+---
+## References
+Junaid, A. W. (n.d.). Dns2tcpc: A tool for tunneling TCP traffic over DNS queries to bypass firewalls. https://awjunaid.com/kali-linux/dns2tcpc-a-tool-for-tunneling-tcp-traffic-over-dns-queries-to-bypass-firewalls/
 
+TutorialsPoint. (n.d.). Kali Linux – Maintaining access. https://www.tutorialspoint.com/kali_linux/kali_linux_maintaining_access.htm
