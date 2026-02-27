@@ -75,3 +75,9 @@ Invoke-Portscan -Hosts <ip> -Ports "1-200"
 Invoke-Portscan performs TCP port scanning to identify open services on a target host. It attempts connections across a defined range of ports and reports which ports are open.
 
 
+---
+## References
+Fox, N. (n.d.). PowerSploit usage & detection. https://neil-fox.github.io/PowerSploit-usage-&-detection/
+
+OpenAI. (2024). ChatGPT (February 27 version) [Large language model]. https://chat.openai.com/
+
