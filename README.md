@@ -1,4 +1,8 @@
-# TMS6064 – Assignment 1  
+# TMS6064/TMV6064 Cyber Security - Assignment 1
+
+Student name:
+1. Lileyana Sitin (25030844)
+2. Liu Tuanyuan (25030814)
 ---
 ## Disclaimer
 
