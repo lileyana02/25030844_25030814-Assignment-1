@@ -1,9 +1,9 @@
 # 1. Introduction
 
-Cybersecurity penetration testing follows a structured lifecycle designed to simulate real-world attack scenarios in a controlled and ethical environment. Among the most critical stages in this lifecycle are reconnaissance and maintaining access. These two phases represent fundamentally different but complementary objectives within offensive security operations.
+Penetration testing follows a structured process to simulate real-world cyber attacks in a safe and controlled environment. Two important stages in this process are reconnaissance and maintaining access. These stages have different goals but both are important in understanding system weaknesses.
 
-Reconnaissance is the intelligence gathering phase. Its primary objective is to reduce uncertainty about the target environment before exploitation begins. The quality of reconnaissance directly influences the success rate of exploitation because attackers rely on accurate information about open ports, running services, domain configurations, and system architecture. Reconnaissance can be passive in collecting publicly available information or active direct interaction with the target through scanning and probing.
+Reconnaissance is the stage where information about the target is collected. This may include open ports, running services, and domain details. The more accurate the information, the easier it is to plan the next step. This can be done either passively by gathering public information or actively by scanning the target.
 
-Maintaining access occurs after successful exploitation. In this phase, the objective shifts from gaining entry to preserving control over the compromised system while minimizing detection. Post exploitation techniques often involve persistence mechanisms, encrypted communication channels, and covert tunneling to evade intrusion detection systems.
+Maintaining access happens after a system has been accessed. The goal is to keep control of the system without being detected. This may involve setting up persistence methods or using hidden communication channels.
 
-In this assignment , it will evaluates four reconnaissance tools (Nmap, DNSRecon, Hping3, Recon-ng) and five maintaining access tools (Powersploit, Webshells, Weevely, Dns2tcp, Cryptcat). Each tool is analysed not only by its features but by how those features contribute to real-world penetration testing strategy.
+In this assignment, four reconnaissance tools (Nmap, DNSRecon, Hping3, and Recon-ng) and five maintaining access tools (PowerSploit, Webshells, Weevely, Dns2tcp, and Cryptcat) are evaluated based on their functions and practical use in penetration testing.
