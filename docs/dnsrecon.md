@@ -10,7 +10,8 @@ command:
 ```bash
 dnsrecon -d example.com
 ```
-<img width="1074" height="1239" alt="Standard DNS Record Enumeration" src="https://github.com/user-attachments/assets/6201c374-ddbf-4ed5-8fdd-5dcc92466aa9" />
+
+<img width="1074" height="668" alt="Standard DNS Record Enumeration" src="https://github.com/user-attachments/assets/9ccca017-59ba-4c92-b75b-c20844235274" />
 
 This command performs general DNS enumeration against the target domain. It collects publicly available DNS records including:
 1. SOA (Start of Authority)
