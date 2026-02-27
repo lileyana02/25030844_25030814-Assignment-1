@@ -10,12 +10,12 @@ controlled environment or on authorized targets.
 ## 📑 Table of Contents
 
 1. [Introduction](docs/introduction.md)
-2. [Reconnaissance Tools]
+2. Reconnaissance Tools
     - [Nmap](docs/nmap.md)
     - [DNSRecon](docs/dnsrecon.md)
     - [Hping3](docs/hping3.md)
     - [Recon-ng](docs/recon-ng.md)
-3. [Maintaining Access Tools]
+3. Maintaining Access Tools
     - [Powersploit](docs/powersploit.md)
     - [Webshells](docs/webshells.md)
     - [Weevely](docs/weevely.md)
