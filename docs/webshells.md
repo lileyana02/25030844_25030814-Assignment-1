@@ -67,7 +67,7 @@ Commands were executed via the cmd parameter.
   ```
   This confirms filesystem access via the web shell.
 
-  -Feature 3 List files in directory
+  - Feature 3 List files in directory
   <img width="990" height="148" alt="ls -la" src="https://github.com/user-attachments/assets/ff4ebca4-4d8f-48c8-8adb-683f387faa6d" />
 
 <img width="669" height="157" alt="cmd=ls" src="https://github.com/user-attachments/assets/9d870d7f-a25b-4151-92aa-cee27adc63b3" />
